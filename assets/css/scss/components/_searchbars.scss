@@ -1,0 +1,16 @@
+#search-bar {
+  display: flex;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: -55px;
+  width: 100%;
+
+  input[type=text] {
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 24px;
+    padding-left: 20px;
+    width: 100%;
+  }
+}

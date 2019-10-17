@@ -1,0 +1,29 @@
+#politicians-list {
+  background: whitesmoke;
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  li {
+    padding: 15px 0;
+    width: 200px;
+  }
+
+  .name {
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  .photo {
+    border-radius: 12px;
+    width: 100px;
+  }
+
+  .contact {
+    display: block;
+    font-style: italic;
+  }
+}
